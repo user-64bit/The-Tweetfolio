@@ -1,0 +1,34 @@
+.sidebar {
+    border-right: 1px solid #2b3c47;
+    flex: 0.2;
+    padding-right: 15px;
+    padding-left: 20px;
+  }
+
+
+  .sidebar__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  /* .sidebarOption > h2{
+    color: black;
+  }
+  .sidebarOption > .MuiSvgIcon-root{
+    color: black;
+  } */
+  a:-webkit-any-link{
+    text-decoration: none;
+  } 
+  .sidebar__tweet {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+  }
