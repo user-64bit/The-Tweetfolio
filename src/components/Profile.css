@@ -1,0 +1,110 @@
+
+.main_container{
+    border-right: 1px solid #2b3c47;
+    display: flex;
+    flex: 0.5;
+	/* border: 2px solid var(--twitter-background); */
+    overflow-y: scroll;
+    /* background-color: #15202b; */
+
+}
+.main_container::-webkit-scrollbar {
+    display: none;
+  }
+.header{
+    background-color: #15202b;
+}
+.name_tag{
+    position: sticky;
+    top: 0;
+    border-bottom:1px solid #2b3c47;
+    border-top:1px solid #2b3c47;
+    background-color: #203141;
+    overflow: hidden;
+    color: white;
+    height: 40px;
+}
+.name_tag h2{
+    position: relative;
+    left: 55px;
+    bottom: 14px;
+    font-size: 1.4rem;
+}
+.banner_image img{
+    width: 48vw;
+    height: 30vh;
+    object-fit: cover;
+}
+.profile_image{
+    /* background-color: #15202b; */
+    margin-top: -5px;
+}
+
+.profile_image img{
+    box-shadow:0px 3px 6px 4px rgb(44 51 66);
+    /* border: 5px solid rgb(44 51 66) !important; */
+    margin-top: -65px;
+    margin-left: 15px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+/* .profile_image img:hover{
+    border-radius: 50%;
+    position: absolute;
+    top: 37%;
+    width: 25vw;
+    height: 47vh;
+    left: 37%;
+    box-shadow: 3px 3px 11px 7px rgb(44 51 66);
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+
+} */
+
+.profile_image img:hover{
+    cursor: pointer;
+    opacity: 0.96;
+}
+
+/* .popup_image img{
+    position: fixed;
+    left: 30%;
+    top: 20%;
+    background: rgba(0,0,0,0.9);
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.popup_image span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+} */
+.descryption{
+    display: block;
+    color: white;
+    /* background-color: #15202b; */
+}
+.descryption .userName h2{
+    margin: 0px;
+    padding-left: 18px;
+    padding-top: 18px;
+}
+.descryption .userName h4{
+    margin: 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: small;
+}
+.descryption .userName h4 a{
+    text-decoration: none;
+    color: white;
+}
+.descryption .bio{
+    padding-left: 18px;
+    padding-right: 18px;
+}
