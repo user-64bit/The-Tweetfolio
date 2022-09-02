@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import BannerImage from './Images/Code.png';
 import './Profile.css';
 import ModalImage from "react-modal-image";
@@ -7,7 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TimeLine from './TimeLine';
-import avatar from './Images/twitter.jpg';
+import avatar from './Images/profile.jpg';
 import Post from './Post';
 import Iframely from './Iframely';
 import MySkills from './MySkills';
@@ -43,7 +43,7 @@ const Profile = () => {
                 <h4><a href='https://twitter.com/aparth11' target={"_blank"} rel='noreferrer'>aparth11</a></h4>
             </div>
             <div className="bio">
-              <p>@Code 👨‍💻 @Anime 😌 @Gym 💪 @Sarcasm 😼 @Night owl🦉 @gamer 🎲</p>
+              <p>@Code 👨‍💻 @Anime 😌 @Gym 💪 @Early Bird 🐦  @gamer 🎲 </p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima dolores ea nisi voluptate, iste soluta architecto ipsam saepe odio sint obcaecati omnis facilis eius blanditiis temporibus quisquam repudiandae animi repellat reprehenderit eos unde adipisci earum! Sunt facilis similique dolore?</p>
             </div>
             <div className="connections">
