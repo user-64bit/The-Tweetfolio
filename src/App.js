@@ -1,4 +1,3 @@
-import { ApolloClient, ApolloProvider, HttpLink, InMemoryCache } from "@apollo/client"
 import './App.css';
 import Feed from './components/Feed';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
@@ -9,11 +8,6 @@ import Blogs from "./components/Blogs";
 import { useEffect } from "react";
 import icon from './components/Images/favicon.ico';
 import Connections from "./components/Connections";
-
-// const client = new ApolloClient({
-//   cache: new InMemoryCache(),
-//   uri: "http://localhost:4000"
-// });
 
 function App() {
   
@@ -38,8 +32,7 @@ function App() {
         </Routes>
         <Widgets/>  
       </Router>
-    {/* </ApolloProvider> */}
-    </div>
+     </div>
     </>
 
   );
