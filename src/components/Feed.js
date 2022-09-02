@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from './Images/twitter.jpg';
+import Avatar from './Images/profile.jpg';
 import "./Feed.css";
 
 import Post from "./Post";
