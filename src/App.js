@@ -6,15 +6,9 @@ import Sidebar from './components/Sidebar';
 import Widgets from './components/Widgets';
 import Blogs from "./components/Blogs";
 import { useEffect } from "react";
-import icon from './components/Images/favicon.ico';
 import Connections from "./components/Connections";
 
 function App() {
-  
-  useEffect(()=>{
-    const favicon = document.getElementById('favicon');
-    favicon.setAttribute('href',icon);
-  },[])  
   const ids = ["1556600758908227585","1556713820453756931","1556638184041172992"];
 
   return (
