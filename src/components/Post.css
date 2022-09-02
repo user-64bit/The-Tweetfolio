@@ -1,10 +1,14 @@
 .post {
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid var(--twitter-background);
+    border-bottom: 1px solid #2b3c47;
     padding-bottom: 10px;
   }
-  
+.post:hover{
+  /* opacity: 0.9; */
+  background-color: #25303b;
+  cursor: pointer;
+} 
   .post__body {
     flex: 1;
     padding: 10px;
@@ -44,3 +48,11 @@
   .post__avatar {
     padding: 20px;
   }
+
+  .post-btns{
+    color: #73818e;
+  }
+  .post-btns:hover{
+    color: #576b80;
+  }
+

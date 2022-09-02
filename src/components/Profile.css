@@ -1,43 +1,49 @@
 
 .main_container{
     border-right: 1px solid #2b3c47;
-    display: flex;
     flex: 0.5;
-	/* border: 2px solid var(--twitter-background); */
     overflow-y: scroll;
-    /* background-color: #15202b; */
 
 }
 .main_container::-webkit-scrollbar {
     display: none;
   }
-.header{
+.my-profile{
     background-color: #15202b;
 }
-.name_tag{
+.name_tag {
+    background-color: #172f44;
+    border-bottom: 1px solid #2b3c47;
+    border-top: 1px solid #2b3c47;
+    padding: 1px 20px;
     position: sticky;
     top: 0;
-    border-bottom:1px solid #2b3c47;
-    border-top:1px solid #2b3c47;
-    background-color: #203141;
-    overflow: hidden;
+    z-index: 100;
+  }
+  
+  .name_tag > h2 {
+    font-size: 20px;
+    font-weight: 400;
     color: white;
-    height: 40px;
-}
-.name_tag h2{
-    position: relative;
-    left: 55px;
-    bottom: 14px;
-    font-size: 1.4rem;
+  }
+
+.banner_image{
+    cursor: pointer;
+    /* height: 34vh;
+    width: 30vw; */
+    max-width: 100%;
+    max-height: 100%;
+    /* margin-top: 44px; */
 }
 .banner_image img{
-    width: 48vw;
-    height: 30vh;
     object-fit: cover;
 }
 .profile_image{
     /* background-color: #15202b; */
     margin-top: -5px;
+    width: 125px;
+    margin-bottom: -25px;
+    height: 125px;
 }
 
 .profile_image img{
@@ -45,55 +51,23 @@
     /* border: 5px solid rgb(44 51 66) !important; */
     margin-top: -65px;
     margin-left: 15px;
-    width: 125px;
-    height: 125px;
     border-radius: 50%;
 }
-
-/* .profile_image img:hover{
-    border-radius: 50%;
-    position: absolute;
-    top: 37%;
-    width: 25vw;
-    height: 47vh;
-    left: 37%;
-    box-shadow: 3px 3px 11px 7px rgb(44 51 66);
-    background-color: rgba(0,0,0,0.9);
-    z-index: 1;
-
-} */
 
 .profile_image img:hover{
     cursor: pointer;
-    opacity: 0.96;
+    opacity: 0.98;
 }
 
-/* .popup_image img{
-    position: fixed;
-    left: 30%;
-    top: 20%;
-    background: rgba(0,0,0,0.9);
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
-}
-
-.popup_image span{
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 40px;
-} */
 .descryption{
     display: block;
-    color: white;
+    /* color: white; */
     /* background-color: #15202b; */
 }
 .descryption .userName h2{
     margin: 0px;
     padding-left: 18px;
-    padding-top: 18px;
-}
+ }
 .descryption .userName h4{
     margin: 0px;
     padding-left: 20px;
@@ -104,7 +78,46 @@
     text-decoration: none;
     color: white;
 }
+.descryption .userName h4 a:hover{
+    color: skyblue;
+}
 .descryption .bio{
     padding-left: 18px;
     padding-right: 18px;
+}
+.descryption .connections{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 10px;
+    height: 6vh;
+}
+.descryption .connections a{
+    margin: 35px;
+    text-decoration: none;
+    color: white;
+    
+}
+.descryption .connections a .twitter:hover{
+    -webkit-transition: all 500ms ease;
+    color: skyblue;
+}
+.descryption .connections a .github:hover{
+    -webkit-transition: all 500ms ease;
+    opacity: 0.7;
+}
+.descryption .connections a .linkedin:hover{
+    -webkit-transition: all 500ms ease;
+    color: #1766c2;
+}
+.descryption .connections a .instagram:hover{
+    -webkit-transition: all 500ms ease;
+    color: #e5658f;
+}
+.descryption .connections .connections-icon{
+    font-size: 1.8rem;
+}
+
+.descryption{
+    border-bottom: 1px solid #2b3c47;
 }
