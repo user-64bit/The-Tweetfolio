@@ -3,8 +3,11 @@
     flex: 0.2;
     padding-right: 15px;
     padding-left: 20px;
+    overflow-y: scroll;
   }
-
+  .sidebar::-webkit-scrollbar {
+    display: none;
+  }
 
   .sidebar__twitterIcon {
     color: var(--twitter-color);

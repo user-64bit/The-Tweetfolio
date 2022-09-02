@@ -1,0 +1,26 @@
+.grid-skills{
+    display: grid;
+    grid-template-columns: repeat(5, 120px);
+    grid-template-rows: repeat(3, 90px);
+    grid-gap: 10px;
+    margin-top: 15px;
+    
+}
+.grid-skills .items .skills_svg:hover{
+    opacity: 0.6;
+}
+.grid-skills .items h5{
+    font-family: 'DynaPuff';
+    margin: 0px;
+    padding: 0px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.skills_svg{
+    height: 45px;
+    margin-left: 3px;
+}
+.mySkills{
+    text-align: center;
+    margin-right: 75px;
+}
