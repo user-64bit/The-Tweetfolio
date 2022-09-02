@@ -4,7 +4,7 @@ import "./Feed.css";
 
 import Post from "./Post";
 
-function Feed({ids}) {
+function Feed() {
   return (
   <>
       <div className="feed">
@@ -18,6 +18,13 @@ function Feed({ids}) {
         username='aparth11'
         verified='true'
         text='Hello Everyone'
+        avatar={Avatar} />
+        <Post
+        key='2'
+        displayName="Arth 🇮🇳 "
+        username='aparth11'
+        verified='true'
+        text='This site is still under Construction :)'
         avatar={Avatar} />
       </div>
     </>

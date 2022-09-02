@@ -20,12 +20,11 @@ function App() {
   return (
     <>
     <div className="app">
-    {/* <ApolloProvider client={client}> */}
-      <Router>
+       <Router>
         <Sidebar/>
         <Routes>
           <Route path="/" element={<Feed ids={ids}/>}/>
-          <Route path="/home" element={<Feed ids={ids}/>} />
+          <Route path="/home" element={<Feed/>} />
           <Route path="/profile" element={<Profile/>}/>
           <Route path="/posts" element={<Blogs/>}/>
           <Route path="/connects" element={<Connections />}/>
