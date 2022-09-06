@@ -5,7 +5,6 @@ import Profile from './components/Profile';
 import Sidebar from './components/Sidebar';
 import Widgets from './components/Widgets';
 import Blogs from "./components/Blogs";
-import { useEffect } from "react";
 import Connections from "./components/Connections";
 
 function App() {

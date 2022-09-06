@@ -11,6 +11,7 @@ import avatar from './Images/profile.jpg';
 import Post from './Post';
 import Iframely from './Iframely';
 import MySkills from './MySkills';
+import List from './List';
 
 
 
@@ -43,7 +44,7 @@ const Profile = () => {
                 <h4><a href='https://twitter.com/aparth11' target={"_blank"} rel='noreferrer'>aparth11</a></h4>
             </div>
             <div className="bio">
-              <p>@Code 👨‍💻 @Anime 😌 @Gym 💪 @Early Bird 🐦  @gamer 🎲 </p>
+              <p>@Code 👨‍💻 @Anime 😌 @Gym 💪 @Early Bird 🐦  @gamer 🎲 @Open-Sourcerer🧙‍♂️</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima dolores ea nisi voluptate, iste soluta architecto ipsam saepe odio sint obcaecati omnis facilis eius blanditiis temporibus quisquam repudiandae animi repellat reprehenderit eos unde adipisci earum! Sunt facilis similique dolore?</p>
             </div>
             <div className="connections">
@@ -75,10 +76,20 @@ const Profile = () => {
                 
               ></Post>
               <Post 
+                // key={data.id}
                 displayName={displayName}
                 username={userName}
                 verified="true"
-                text={<Iframely url='https://github.com/open-sauced/open-sauced/pull/1453' size='' />}
+                text={<List/>}
+                avatar={avatar}
+                
+              ></Post>
+              <Post 
+                displayName={displayName}
+                username={userName}
+                verified="true"
+                text="Open Sauced provides structured onboarding for new contributors to open source. This structure provides a way to track your next contributions by leveraging a unique dashboard built on top of the GitHub GraphQL API."
+                text_link={<Iframely url='https://github.com/open-sauced/open-sauced/pull/1453' size='' />}
                 avatar={avatar}
                 
               ></Post>
@@ -86,7 +97,26 @@ const Profile = () => {
                  displayName={displayName}
                 username={userName}
                 verified="true"
-                text={<Iframely url='https://github.com/codinasion/codinasion-programme/pull/654' size='' />}
+                text="An open source codebase for sharing programming solutions."
+                text_link={<Iframely url='https://github.com/codinasion/codinasion-programme/pull/654' size='' />}
+                avatar={avatar}
+                
+              ></Post>
+              <Post 
+                 displayName={displayName}
+                username={userName}
+                verified="true"
+                text="This is  multi-month study plan for becoming a software engineer for a large company.(It has more than 231K+ stars)"
+                text_link={<Iframely url='https://github.com/jwasham/coding-interview-university/pull/1150' size='' />}
+                avatar={avatar}
+                
+              ></Post>
+              <Post 
+                 displayName={displayName}
+                username={userName}
+                verified="true"
+                text="Secure Backend Server for Web, Mobile & Flutter Developers rocket AKA the 100% open-source Firebase alternative."
+                text_link={<Iframely url='https://github.com/appwrite/docs/pull/230' size='' />}
                 avatar={avatar}
                 
               ></Post>
