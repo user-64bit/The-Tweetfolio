@@ -71,7 +71,7 @@ const Profile = () => {
                 displayName={displayName}
                 username={userName}
                 verified="true"
-                text={<List/>}
+                text={<TimeLine/>}
                 avatar={avatar}
                 
               ></Post>
@@ -80,7 +80,7 @@ const Profile = () => {
                 displayName={displayName}
                 username={userName}
                 verified="true"
-                text={<TimeLine/>}
+                text={<List/>}
                 avatar={avatar}
                 
               ></Post>
@@ -88,7 +88,7 @@ const Profile = () => {
                 displayName={displayName}
                 username={userName}
                 verified="true"
-                text="About Project: Open Sauced provides structured onboarding for new contributors to open source. This structure provides a way to track your next contributions by leveraging a unique dashboard built on top of the GitHub GraphQL API."
+                text="Open Sauced provides structured onboarding for new contributors to open source. This structure provides a way to track your next contributions by leveraging a unique dashboard built on top of the GitHub GraphQL API."
                 text_link={<Iframely url='https://github.com/open-sauced/open-sauced/pull/1453' size='' />}
                 avatar={avatar}
                 
@@ -97,7 +97,7 @@ const Profile = () => {
                  displayName={displayName}
                 username={userName}
                 verified="true"
-                text="About Project: An open source codebase for sharing programming solutions."
+                text="An open source codebase for sharing programming solutions."
                 text_link={<Iframely url='https://github.com/codinasion/codinasion-programme/pull/654' size='' />}
                 avatar={avatar}
                 
@@ -106,7 +106,7 @@ const Profile = () => {
                  displayName={displayName}
                 username={userName}
                 verified="true"
-                text="About Project: This is  multi-month study plan for becoming a software engineer for a large company.(It has more than 231K+ stars)"
+                text="This is  multi-month study plan for becoming a software engineer for a large company.(It has more than 231K+ stars)"
                 text_link={<Iframely url='https://github.com/jwasham/coding-interview-university/pull/1150' size='' />}
                 avatar={avatar}
                 
@@ -115,7 +115,7 @@ const Profile = () => {
                  displayName={displayName}
                 username={userName}
                 verified="true"
-                text="About Project: Secure Backend Server for Web, Mobile & Flutter Developers rocket AKA the 100% open-source Firebase alternative."
+                text="Secure Backend Server for Web, Mobile & Flutter Developers rocket AKA the 100% open-source Firebase alternative."
                 text_link={<Iframely url='https://github.com/appwrite/docs/pull/230' size='' />}
                 avatar={avatar}
                 

@@ -48,7 +48,7 @@ export default function Iframely(props) {
     );
   } else if (!isLoaded) {
     return <div>
-           <Loading type="spinningBubbles" color="white"/> 
+           <Loading type="spokes" color="white"/> 
           </div>;
   } else {
     return <div dangerouslySetInnerHTML={html} />;
