@@ -28,7 +28,7 @@ const Profile = () => {
         <div className="my-profile" key='1'>
           <div className="name_tag">
             <h2>
-              Arth 🇮🇳
+              {displayName}
             </h2>
           </div>
           <div className="banner_image">
@@ -40,8 +40,8 @@ const Profile = () => {
 
           <div className="descryption">
             <div className="userName">
-                <h2>aparth11</h2>
-                <h4><a href='https://twitter.com/aparth11' target={"_blank"} rel='noreferrer'>aparth11</a></h4>
+                <h2>{displayName}</h2>
+                <h4><a href='https://twitter.com/aparth11' target={"_blank"} rel='noreferrer'>@aparth11</a></h4>
             </div>
             <div className="bio">
               <p>@Code 👨‍💻 @Anime 😌 @Gym 💪 @Early Bird 🐦  @gamer 🎲 @Open-Sourcerer🧙‍♂️</p>
