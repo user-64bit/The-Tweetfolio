@@ -22,7 +22,7 @@ const Connections = () => {
                             <PermIdentityIcon className='icon'/>
 
                         </label>
-                        <input type="text" id="formName" className="form-control " placeholder="Name"/>
+                        <input type="text" id="formName" className="form-control " placeholder="Name" autoFocus="autofocus"/>
                     </div>
 
                     <div className="form-group">

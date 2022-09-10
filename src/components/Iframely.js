@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Iframely.css'
+import Loading from './Loading';
 const KEY = '1e958f87dc984e8dc9414cb1b5bf9b33';
 
 export default function Iframely(props) {
@@ -8,7 +9,6 @@ export default function Iframely(props) {
   const [html, setHtml] = useState({
     __html: '<div />',
   });
-
   useEffect(() => {
     if (props && props.url) {
       fetch(
@@ -36,9 +36,9 @@ export default function Iframely(props) {
     }
   },[]);
 
-  // useEffect((props) => {
-  //   window.iframely && window.iframely.load();
-  // });
+  useEffect((props) => {
+    window.iframely && window.iframely.load();
+  });
 
   if (error) {
     return (
@@ -47,7 +47,9 @@ export default function Iframely(props) {
       </div>
     );
   } else if (!isLoaded) {
-    return <div>Loading…</div>;
+    return <div>
+           <Loading type="spokes" color="white"/> 
+          </div>;
   } else {
     return <div dangerouslySetInnerHTML={html} />;
   }

@@ -1,10 +1,16 @@
 .grid-skills{
     display: grid;
-    grid-template-columns: repeat(5, 120px);
-    grid-template-rows: repeat(3, 90px);
+    grid-template-columns: repeat(auto-fit, 150px);
+    /* grid-template-rows: repeat(3, 90px); */
     grid-gap: 10px;
     margin-top: 15px;
     
+}
+.grid-skills .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .grid-skills .items .skills_svg:hover{
     opacity: 0.6;
