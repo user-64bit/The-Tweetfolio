@@ -1,14 +1,15 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
-// import Popup from 'reactjs-popup';
+
 import CodeIcon from '@material-ui/icons/Code';
 import HomeIcon from "@material-ui/icons/Home";
 import CallIcon from '@material-ui/icons/Call';
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
+import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom"
-import Popups from "./Popups";
+
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -33,8 +34,9 @@ function Sidebar() {
           <SidebarOption Icon={CallIcon} text="Connects" />
         </div>
       </Link>
-      
-      <Popups/>
+      <Button variant="outlined" className="sidebar__tweet" fullWidth>
+        Tweet
+      </Button>
     </div>
   );
 }
