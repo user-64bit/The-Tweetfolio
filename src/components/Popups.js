@@ -19,6 +19,7 @@ const Popups = () => {
           </a>
           Awwwww.... You wanna Play with this button 🤣....
           I'm Still working on this, So Stay Tuned
+          {/* <img src="./Images/twitter.jpg" alt="" /> */}
         </div>
       </Popup>
     </div>
