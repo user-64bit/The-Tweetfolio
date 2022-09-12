@@ -9,6 +9,10 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import { Link } from "react-router-dom"
 import Popups from "./Popups";
+import ModalImage from "react-modal-image";
+import { Button } from "@material-ui/core";
+
+import Meme from "./Images/twitter.jpg"
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -35,6 +39,9 @@ function Sidebar() {
       </Link>
       
       <Popups/>
+      {/* <div className="button">
+      <ModalImage small="HI" large={Meme}/>
+      </div> */}
     </div>
   );
 }
