@@ -9,7 +9,11 @@ import Connections from "./components/Connections";
 
 function App() {
   const ids = ["1556600758908227585","1556713820453756931","1556638184041172992"];
-
+  // if(window.innerWidth<1216){
+  //   console.log("hiya hiya")
+  //   document.getElementsByClassName("app").style.display = "none";
+  //   document.getElementsByClassName("alertSmallScreen").style.display = "block";
+  // }
   return (
     <>
     <div className="app">
@@ -25,6 +29,12 @@ function App() {
         <Widgets/>  
       </Router>
      </div>
+        <div className='alertSmallScreen'>
+            <p>Hey 🙋‍♂️</p> 
+            <p>This Website is not responsive Enough for this size of Screen.🙁</p>
+            <p>Please Use Bigger Screen to Checkout this Website.✌️</p>
+            <p>Thanks 😊</p>
+        </div>
     </>
 
   );
