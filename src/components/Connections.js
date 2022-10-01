@@ -42,7 +42,7 @@ const Connections = () => {
                         <textarea rows="15" cols="78" type="text" id="formMessage"  placeholder="Message.."/>
                     </div>
                     <div className="form-group jc-flex-end">
-                    <Popups Text="This Section is still under construction but you email me on arth.prajapati@outlook.com"/>
+                    <Popups Text="This Section is still under construction but you email me on <span class='c-red'>arth.prajapati@outlook.com</span>"/>
 
                     {/* <Button variant="outlined" className="sidebar__tweet contact_btn" fullWidth>
         Tweet
