@@ -9,20 +9,25 @@
   "LOCATION": "India",
   "WEBSITE": "user64bit.wtf",
   "GITHUB_FOLLOWERS": 50,
-  "CONTACT_EMAIL": "arthprajapati6602@gmail.com",
+  "CONTACT_EMAIL": "arth.prajapati.dev@gmail.com",
   "PINNED_TWEET": {
     "content": "Full-stack dev building at the intersection of Web3 & AI. Ex-Odoo. I ship fast and break things (then fix them). Currently freelancing — let's build something together.",
     "cta_text": "Get in touch",
-    "cta_link": "mailto:arthprajapati6602@gmail.com"
+    "cta_link": "mailto:arth.prajapati.dev@gmail.com"
   },
   "EducationData": [
     {
-      "date": "July 2019 - May 2023",
+      "date": "",
       "title": "Bachelor of Engineering in Computer Science",
       "description": "Completed a B.E. in Computer Science with a focus on software development, algorithms, and system design. Built multiple full-stack projects and contributed to open source throughout."
     }
   ],
   "ExperienceData": [
+    {
+      "timeline": "July 2026 - Present",
+      "company_name": "Member At Superteam",
+      "description": "Contributing to the Superteam ecosystem, collaborating with top builders in the Solana community on impactful Web3 projects and initiatives."
+    },
     {
       "timeline": "October 2024 - Present",
       "company_name": "Freelancer",
@@ -32,11 +37,6 @@
       "timeline": "April 2023 - September 2024",
       "company_name": "Odoo Private Limited",
       "description": "Accelerated product development cycles resulting in faster releases. Debugged and improved core product stability. Collaborated with cross-functional teams to solve complex technical challenges."
-    },
-    {
-      "timeline": "February 2023 - April 2023",
-      "company_name": "Radix Private Limited",
-      "description": "Internship focused on web development — gained hands-on experience with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, and MS SQL in real-world projects."
     }
   ],
   "SkillsData": {
